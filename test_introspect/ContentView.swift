@@ -11,8 +11,6 @@ import Introspect
 
 struct ContentView: View {
     
-    @State var sheetIsPresented = true
-    
     var body: some View {
 
         VStack {
@@ -34,7 +32,7 @@ struct TextView: View {
                         print("introspect textField")
                 }
                 // uncomment the following will silence the introspector
-                // .cornerRadius(10.0)
+                //.cornerRadius(10.0)
             }
             // uncomment the following will silence the introspector
             // .cornerRadius(10.0)
